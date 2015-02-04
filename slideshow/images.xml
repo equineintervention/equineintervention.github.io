@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gallery>
+<album id="index" title="Welcome to Coker College" description="" lgPath="gallery/album_1/images/" tnPath="gallery/thumbnails/" tn="gallery/thumbnails/1.jpg">
+	<img src="1.jpg" caption="" link="" target="_blank" />
+	<img src="2.jpg" caption="" link="" target="_blank" />
+	<img src="3.jpg" caption="" link="" target="_blank" />	
+	<img src="4.jpg" caption="" link="" target="_blank" />	
+	<img src="5.jpg" caption="" link="" target="_blank" />	
+</album>
+</gallery>

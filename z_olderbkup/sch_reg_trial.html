@@ -1,0 +1,249 @@
+<html>
+<head>
+<title>Program Registration Form</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<script type="text/javascript">
+<!--
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		index_04_15over = newImage("index_imgs/index_04_15over.png");
+		index_06_16over = newImage("index_imgs/index_06_16over.png");
+		index_08_17over = newImage("index_imgs/index_08_17over.png");
+		index_10_18over = newImage("index_imgs/index_10_18over.png");
+		preloadFlag = true;
+	}
+}
+
+// -->
+</script>
+<link href="black_creek.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+body {
+	background-color: #52C3D1;
+}
+.style1 {font-size: 10px}
+-->
+</style>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="preloadImages();">
+<table width="850" height="155" border="0" align="center" cellpadding="0" cellspacing="0" id="Table_01">
+	
+        <tr>
+          <td><form action="formmail.php" method="post" name="Program_Registration" id="Program_Registration">
+                <table border="0" width="98%">
+                  <tr>
+                    <td><div align="right" class="form_header">
+                      <div align="left">*<strong> Full Name:</strong></div>
+                    </div></td>
+                    <td>&nbsp;</td>
+                    <td>
+                      
+                      <div align="right">
+                        <input name="name" type="text" class="form_body" size="30">
+                      </div></td>
+                  </tr>
+                  <tr>
+                    <td><div align="right" class="form_header">
+                      <div align="left">*<strong> Parent/Guardian:</strong></div>
+                    </div></td>
+                    <td width="5">&nbsp;</td>
+                    <td>
+                      <div align="right">
+                        <input name="name_parent" type="text" class="form_body" id="name_parent" size="30">
+                      </div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" valign="middle" class="form_body"><div align="right"><em>Parent/Gardian name only needed for children under the age of 18 </em></div></td>
+                  </tr>
+                  <tr>
+                    <td valign="middle"><div align="right" class="form_header">
+                        <div align="left"><strong>* Address</strong></div>
+                    </div></td>
+                    <td>&nbsp;</td>
+                    <td><div align="right">
+                        <input name="address" type="text" class="form_body" id="address" size="30">
+                    </div></td>
+                  </tr>
+                  <tr>
+                    <td valign="middle"><div align="right" class="form_header">
+                        <div align="left"></div>
+                    </div></td>
+                    <td>&nbsp;</td>
+                    <td><div align="right">
+                        <input name="address_2" type="text" class="form_body" id="address_2" size="30">
+                    </div></td>
+                  </tr>
+                  <tr>
+                    <td valign="middle"><div align="right" class="form_header">
+                        <div align="left">* <strong>State / Zip Code </strong></div>
+                    </div></td>
+                    <td>&nbsp;</td>
+                    <td><div align="right">
+                      <input name="state" type="text" id="state" size="2" maxlength="2">
+/
+<input name="zip_code" type="text" id="zip_code" size="5" maxlength="5">
+                    </div></td>
+                  </tr>
+                  <tr>
+                    <td valign="middle"><div align="right" class="form_header">
+                        <div align="left">*<strong> Birthdate:</strong></div>
+                    </div></td>
+                    <td>&nbsp;</td>
+                    <td class="form_body">
+                      
+                      <div align="right">
+                        <span class="style1">(MM/DD/YYYY)</span>
+                        <input name="b_day_month" type="text" id="b_day_month" size="2" maxlength="2">
+                        / 
+                        <input name="b_day_date" type="text" id="b_day_date" size="2" maxlength="2">
+                        /
+                        <input name="b_day_year" type="text" id="b_day_year" size="4" maxlength="4">
+                    </div></td>
+                  </tr>
+                  <tr>
+                    <td valign="middle"><div align="right" class="form_header">
+                        <div align="left">*<strong> Phone:</strong></div>
+                    </div></td>
+                    <td>&nbsp;</td>
+                    <td><div align="right" class="form_body">
+                        
+                        (
+                        <input name="area_code" type="text" id="area_code" size="3" maxlength="3"> 
+                        )
+                        <input name="phone_3" type="text" id="phone_3" size="3" maxlength="3"> 
+                        - 
+                        <input name="phone_4" type="text" id="phone_4" size="4" maxlength="4">
+                    </div></td>
+                  </tr>
+                  <tr>
+                    <td valign="middle"><div align="right" class="form_header">
+                      <div align="left">*<strong> Email:</strong></div>
+                    </div></td>
+                    <td width="5">&nbsp;</td>
+                    <td><div align="right">
+                      <input name="email" type="text" class="form_body" size="30">
+                    </div></td>
+                  </tr>
+                  <tr>
+                    <td valign="middle"><div align="right" class="form_header">
+                        <div align="left">*<strong> Name of Class(es): </strong></div>
+                    </div></td>
+                    <td>&nbsp;</td>
+                    <td class="form_body"><div align="right">
+                      <label>
+                      <input name="class" type="text" class="form_body" id="class" size="30">
+                      </label>
+                    </div></td>
+                  </tr>
+                  <tr>
+                    <td valign="middle" class="form_header"><div align="left">*<strong> Cost of Class(es): </strong></div></td>
+                    <td>&nbsp;</td>
+                    <td class="form_body"><div align="right"><input name="cost" type="text" class="form_body" id="cost" value="" size="30">
+                    </div></td>
+                  </tr>
+                  <tr>
+                    <td valign="middle"><div align="right" class="form_header">
+                        <div align="left"><strong>Prefered type of payment:</strong></div>
+                    </div></td>
+                    <td>&nbsp;</td>
+                    <td class="form_body"><div align="right" class="form_body">
+                        <label>
+                        <select name="payment_type" id="payment_type">
+                          <option selected>:: Select payment type ::</option>
+                          <option value="Credit Card">Credit Card</option>
+                          <option value="Check">Check</option>
+                          <option value="Cash">Cash</option>
+                        </select>
+                        </label>
+                    </div></td>
+                  </tr>
+                  
+                  
+                  <tr>
+                    <td colspan="3" valign="top" class="form_body"><div align="right"><em>BCAC will be implementing online payment through PayPal. <br>
+                      Until then, please mail or stop by with pre-payment in the form of cash or check.</em></div></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" valign="top" class="form_header"><strong>Message/Questions/Comments:</strong></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" valign="top"><div align="right">
+                      <textarea name="message" cols="58" rows="6" class="style4" id="message"></textarea>
+                    </div></td>
+                  </tr>
+                  <tr>
+                    <td height="3" colspan="3" align="left">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" align="left"><div align="right">
+                      <input name="submit" type="submit" class="form_header" value="Submit">
+                    </div></td>
+                  </tr>
+                </table>
+<p class="form_header">*<strong> Required</strong></p>
+            </form></td>
+          </tr>
+        <tr>
+          
+        </tr>
+      </table>
+      </div></td>
+  </tr>
+  <tr>
+    <td width="106">&nbsp;</td>
+    <td width="494">&nbsp;</td>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+<map name="Map">
+  <area shape="rect" coords="-2,111,139,144" href="contact.html">
+  <area shape="rect" coords="-2,75,139,109" href="about.html">
+  <area shape="rect" coords="-1,40,139,73" href="index.html">
+</map>
+</body>
+</html>

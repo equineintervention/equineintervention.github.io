@@ -1,0 +1,381 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+		File: 	equine_global.css
+		Date: 	03/2008
+		Desc:	- - - - -
+		Auth:	Kyle Saverance - kylesav713@yahoo.com
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+
+/*---------------------------------------------------------------------------- 
+CORE HTML TAGS
+-----------------------------------------------------------------------------*/
+html {}
+
+body {font: 75%  "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; line-height: 150%; letter-spacing: .25px;color: #333; background-image: url(../imgs/bg_canvas_4.jpg); margin: 0;padding:0;}
+h1, h2, h3, h4{font-family: Georgia,"Times New Roman",serif;}
+h5, h6{font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;}
+h1 {font-size: 160%;}
+h2 {font-size: 145%;}
+h3 {font-size: 150%;background-image: url(../imgs/topics.png); background-repeat:no-repeat; background-position:bottom left;font-style: normal;font-variant: normal;font-weight: bold; line-height: normal;letter-spacing: 1px; color:#555;padding: 30px 10px 12px 35px;}
+h4 {font-size: 115%; color:#b29d9c;line-height: 100%;text-decoration: none; padding: 10px 0px 0px 0px; margin: 0px; text-transform:uppercase; letter-spacing: .25px;}
+h4 a:link{font-weight: bold; border-bottom-width: 1px;border-bottom-style: dotted;border-bottom-color: #b29d9c; color: #b29d9c;padding-bottom: 1px;}
+h4 a:visited{font-weight: bold; text-decoration: none; color: #555;border-bottom-width: 1px;border-bottom-style: dotted;border-bottom-color: #555;padding-bottom: 1.25px; }
+h5 {font-size: 100%;}
+h6 {font-size: 85%;}
+
+
+a {text-decoration: none;}
+a img {border: none;}
+a:link {font-weight: bold; color: #b29d9c;}
+a:visited {color: #555;}
+a:hover, a:active { text-decoration:none;}
+
+/*---------------------------------------------------------------------------- 
+WRAPPERS
+-----------------------------------------------------------------------------*/
+#wrap {margin: 0 auto;display: block;width: 1000px;background: transparent;position: relative;}
+#main_content_wrapper{width:100%;display: block;}	
+
+/*---------------------------------------------------------------------------- 
+HEADER
+-----------------------------------------------------------------------------*/
+#header {
+	}
+
+/*---------------------------------------------------------------------------- 
+BODY - BACKGROUND
+-----------------------------------------------------------------------------*/
+/*HOME CONTENT*/
+#content_wrapper{width: 1000px; margin: 0 auto; }
+#content_body_bg{background: url(../imgs/body_4.jpg) no-repeat; display: block; width: 900px; height:700px ;margin: 0 auto;}
+#content_body_clean{background: url(../imgs/body_clear.jpg) no-repeat; display: block; width: 900px; height:700px ;margin: 0 auto;}
+#content_top{background: url(../imgs/top_box.png) no-repeat; display:block; width:940px; height: 31px; margin: 0 auto;}
+#content_middle{background: url(../imgs/middle.png) repeat-y; display:block; width:940px; margin: 0 auto;}
+#content_bttm{background: url(../imgs/bttm.png) no-repeat; display:block; width:940px; height: 31px; margin: 0 auto;}
+
+#content_right_wrapper{width: 645px;height: auto;float: right;}
+#flash_wrapper{width: 645px;float: right;height: 680px;}
+#flash {display: block; width: 507px; height: 303px;margin-left: 82px}
+#box_top_flash{height: 172px;width: 645px;}
+#quote_horse{width: 645px; height: 25px; margin-top: 10px; margin-bottom: 65px;text-indent:-9999px; display: block; background: url(../imgs/quote.jpg) no-repeat right;}
+#section_header{width: 645px; height: 78px; text-indent: -9999px; display: block;}
+
+
+#section_header_about{width: 645px; height: 39px; text-indent: -9999px; display: block; background: url(../imgs/header_about.jpg) no-repeat left;}
+#section_header_events{width: 645px; height: 39px; text-indent: -9999px; display: block; background: url(../imgs/header_events.jpg) no-repeat left;}
+#section_header_eap{width: 645px; height: 39px; text-indent: -9999px; display: block; background: url(../imgs/header_eap.jpg) no-repeat left;}
+#section_header_eal{width: 645px; height: 39px; text-indent: -9999px; display: block; background: url(../imgs/header_eal.jpg) no-repeat left;}
+#section_header_contact{width: 645px; height: 39px; text-indent: -9999px; display: block; background: url(../imgs/header_contact.jpg) no-repeat left;}
+
+#section_header_therapists{width: 645px; height: 39px; text-indent: -9999px; display: block; background: url(../imgs/header_therapists.jpg) no-repeat left;}
+#section_header_clients{width: 645px; height: 39px; text-indent: -9999px; display: block; background: url(../imgs/header_clients.jpg) no-repeat left;}
+#section_header_businesses{width: 645px; height: 39px; text-indent: -9999px; display: block; background: url(../imgs/header_businesses.jpg) no-repeat left;}
+
+#section_header_EAP_programs{width: 645px; height: 39px; text-indent: -9999px; display: block; background: url(../imgs/header_EAP_programs.jpg) no-repeat left;}
+#section_header_EAL_programs{width: 645px; height: 39px; text-indent: -9999px; display: block; background: url(../imgs/header_EAL_programs.jpg) no-repeat left;}
+
+#content_main_info{
+	width: 575px;
+	margin: 35px 15px 0px 27px;
+	height:480px;
+	overflow: auto;
+}
+#content_main_info p{
+}
+#content_main_info ul li strong{
+	color: #b29d9c;
+	text-transform:uppercase;
+	font-weight:bold;
+	letter-spacing: .1em;
+	
+
+}
+#scroll_content{width: 500px; height: 250px;}
+#scroll_content div{ overflow:auto;}
+#box_bttm_flash{height: 40px;width: 645px;}
+
+#top_bar{background-color:#333333;display: block;width:100%;height: 10px;}
+#bttm_top_bar{background-color:#333333;display: block;width:100%;height: 10px;}
+#bttm_bar{display: block;width: 100%;height: 125px;clear:both;}
+
+/*---------------------------------------------------------------------------- 
+NAVIGATION - BOTTOM 3 LINK - - - - - CLIENTS, THERAPISTS, BUSINESSES - - - - -
+-----------------------------------------------------------------------------*/
+#main_menu_wrapper{float: left; width: 250px;clear: both;}
+#logo_home_bttn{background-image: url(../imgs/trans_bg.gif);float: left;height: 270px; width: 250px;}
+#logo_home_bttn a{display: block; height: 100%; overflow: hidden; width: 100%; text-indent: -1000em;}
+#main_menu{margin: 275px 0px 0px 0px; height: 192px;}
+
+
+#main_menu ul{
+	height:32px;
+  margin:0;
+  padding:0 0;
+  list-style:none;
+}
+#main_menu li{
+  margin:0;
+  padding:0;
+  background-image:none;
+  line-height:normal;
+  text-indent:0;
+}
+#main_menu li a, #main_menu li strong {
+  background-repeat:no-repeat;
+  background-position:0 0;
+  display:block;
+  height:32px;
+  border-bottom:none;
+  text-indent:-10000px;
+  }
+  
+#main_menu li strong {
+  background-position:0 -32px;
+  }
+#main_menu li a:hover {
+	border-bottom:none;
+  background-position:0 -32px;
+  }
+#main_menu ul {
+  padding:0;
+  }
+#main_menu1 a, #main_menu1 strong {
+  background: url(../imgs/about.jpg);
+  width:250px;
+  border-bottom:none;
+  }
+#main_menu2 a, #main_menu2 strong {
+  background:url(../imgs/upcoming.jpg);
+  width:250px;
+  border-bottom:none;
+  }
+#main_menu3 a, #main_menu3 strong {
+  background:url(../imgs/psycho.jpg);
+  width:250px;
+  border-bottom:none;
+  }
+  #main_menu4 a, #main_menu4 strong {
+  background:url(../imgs/learning.jpg);
+  width:250px;
+  border-bottom:none;
+  }
+  #main_menu5 a, #main_menu5 strong {
+  background:url(../imgs/eagala.jpg);
+  width:250px;
+  border-bottom:none;
+  }
+  #main_menu6 a, #main_menu6 strong {
+  background:url(../imgs/contact.jpg);
+  width:250px;
+  border-bottom:none;
+  }
+
+#bttm_nav_content_wrapper{width:645px;margin-bottom:5px;margin-right: 2px;margin-top: 40px;clear:both;}
+#nav {width:645px;margin-bottom:5px;clear:both;}
+
+#nav ul {
+  height:32px;
+  margin:0;
+  padding:0 0;
+  list-style:none;
+  }
+#nav li {
+  float:left;
+  margin:0;
+  padding:0;
+  background-image:none;
+  line-height:normal;
+  text-indent:0;
+  }
+#nav li a, #nav li strong {
+  background-repeat:no-repeat;
+  background-position:0 0;
+  display:block;
+  float:left;
+  height:32px;
+  border-bottom:none;
+  text-indent:-10000px;
+  }
+#nav li strong {
+  background-position:0 -32px;
+  }
+#nav li a:hover {
+  background-position:0 -32px;
+  border-bottom:none;
+  }
+#nav ul {
+  padding:0;
+  }
+#nav1 a, #nav1 strong {
+  background: url(../imgs/clients.jpg);
+  width:214px;
+  padding-right:1px;
+  border-bottom:none;
+  }
+#nav2 a, #nav2 strong {
+  background:url(../imgs/therapists.jpg);
+  width:214px;
+  padding-right:1px;
+  border-bottom:none;
+  }
+#nav3 a, #nav3 strong {
+  background:url(../imgs/businesses.jpg);
+  width:214px;
+  border-bottom:none;
+  }
+
+#sub_content{display: block; width: 645px;color:#000000;}
+#sub_content ul {
+  height:135px;
+  margin:0;
+  padding: 0;
+  list-style:none;
+  overflow:hidden;
+  }
+#sub_content li {
+	float:left;
+	width: 178px;
+	margin:0;
+	padding-top: 5px;
+	padding-right: 18px;
+	padding-bottom: 0px;
+	padding-left: 18px;
+  }
+.questions{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 100%;
+	font-style: italic;
+	line-height: 150%;
+	text-align: left;
+	letter-spacing: 1px;}
+
+/* Footer */
+#footer {
+	margin:0 auto;
+	width: 1000px;
+	height: 40px;
+	padding-bottom: 20px;
+	clear: both;
+}
+#footer_bg{
+	background:url(../imgs/bg_footer_3.jpg) no-repeat;
+	display:block;
+	width: 615px;
+	height:40px;
+	margin-left: 325px;
+}
+#footer_content {
+	text-align: left;
+	float: right;
+	height: 30px;
+	width: 320px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom:5px;
+}
+#footer_content p {
+	font-size:80%;
+	line-height: 125%;
+	margin: 0px;
+	color: #211102;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+#footer_content a:link {
+	color: #311902;
+	text-decoration: none;
+}
+#footer_content a:visited {
+	color: #311902;
+	text-decoration: none;
+}
+#footer_content a:hover {
+	color: #311902;
+	text-decoration: underline;
+}
+#footer_content a:active {
+	color: #311902;
+	text-decoration: none;
+}
+#footer_logo {
+	background-image: url(../imgs/trans_bg.gif);
+	float: left;
+	height: 40px;
+	width: 185px;
+}
+#footer_logo a {
+	display: block;
+	height: 100%;
+	overflow: hidden;
+	width: 100%;
+	text-indent: -1000em;
+	border-bottom:none;
+}
+
+/* EQUINE INTERVENTION FORM */
+
+#contact_form{width: 645px; margin-top: 35px;}
+#contact_form div{padding: 7px 5px 5px 27px;}
+.boxes { color: #555; font-weight: bold; font-size: 90%; line-height: 110%; font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; text-decoration: none; background-color: #c7d2c4; padding: 3px; border: dotted 1px #566253; }
+.boxes_bttn {color: #555; font-weight: bold; font-size: 115%; line-height: 135%; font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; text-decoration: none; background-color: #c7d2c4; padding: 4px; border: dotted 1px #566253; margin-right: 5px;margin-top: 2px;}
+
+form#contact_form input, form#contact_form jumpMenu{color: #555; font-weight: bold; font-size: 90%; line-height: 110%; font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; text-decoration: none; background-color: #c7d2c4; padding: 3px; border: dotted 1px #566253;}
+
+form#contact_form input:hover { background:#b29d9c; border:1px solid #566253; color:#fff;}
+
+form#contact_form input:focus {background:#fff; border:1px solid #566253; color:#566253;}
+
+
+
+form#contact_form select {margin:0;}
+
+form#contact_form textarea {width:95%; height:5em;overflow: auto; color: #555; font-weight: bold; font-size: 90%; line-height: 110%; font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; text-decoration: none; background-color: #c7d2c4; padding: 3px; border: dotted 1px #566253}
+
+form#contact_form textarea:hover {background:#b29d9c; border:1px solid #566253; color:#fff;}
+
+form#contact_form textarea:focus {background:#fff; border:1px solid #566253; color:#566253;}
+
+
+
+
+a {
+padding: 0;
+	margin: 0;
+}
+div table{width: 100%;}
+th {
+	font: bold 100% "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #566253;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 2px 2px 2px 0px;
+}
+
+th.nobg {
+	background: none;
+}
+
+td {
+	padding: 2px 2px 2px 0px;
+	color: #566253;
+}
+
+
+td.alt {
+	color: #566253;
+}
+
+th.spec {
+	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+th.specalt {
+	font: bold 90% "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #566253;
+}

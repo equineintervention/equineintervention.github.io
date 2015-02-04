@@ -1,0 +1,227 @@
+/*
+----------------------------------------------------------------------------- 
+GENERIC HTML ELEMENTS
+-----------------------------------------------------------------------------*/
+	body {
+		background: #B9BFBF url("img/body-bg.gif") repeat-x 0 0;
+		background: #355E3B;
+		color: #000;
+		font: 95% "Trebuchet MS", Verdana, sans-serif;
+		line-height: 1.6em;
+		margin: 0;
+		padding: 20px 10px 10px 10px; }
+
+	fieldset { 
+		border: none; }
+
+	fieldset legend { 
+		display: none; }
+
+	label {
+		display: none; }
+
+	hr {
+		clear: both;
+		height: 0;
+		margin: 0;
+		padding: 0;
+		visibility: hidden; }
+		
+	h2, h3 {
+		color: #330000;
+		border-bottom: solid 1px #ffcccc;
+		padding-bottom: 0;
+		margin-bottom: 0; }
+		
+	p {
+		margin-top: 0;
+		padding-top: 0; }
+
+/*
+----------------------------------------------------------------------------- 
+LAYOUT: WRAPPER, COL1, COL2
+-----------------------------------------------------------------------------*/
+	#wrapper {
+		background: #FFF url("img/logo-bg.gif") no-repeat 0 0;
+		border: 2px solid #000;
+		color: #000;
+	    margin: 0 auto;
+	    padding: 0;
+	    position: relative;
+		text-align: left;
+		width: 800px; }
+		
+	#content-wrapper {
+		color: #000;
+		float: left;
+		padding: 10px;
+		text-align: left;
+		width: 520px; }
+
+	#sidebar {
+		float: left;
+		margin: 0;
+		padding: 10px;
+		width: 240px; }
+
+/*
+----------------------------------------------------------------------------- 
+ACCESSIBILITY
+-----------------------------------------------------------------------------*/
+	#accessibility {
+		display: none;
+		visibility: hidden; }
+		
+		
+/*
+----------------------------------------------------------------------------- 
+LOGO
+-----------------------------------------------------------------------------*/
+	#logo {
+		color: #FFF;
+		margin: 0 auto;
+		padding: 0;
+		width: 800px; }
+		
+	#logo h1 {
+		margin: 0;
+		padding: 0; }
+		
+	#logo a {
+		border: 0;
+		color: #FFF;
+		text-decoration: none; }
+		
+	#logo a:hover {
+		border-bottom: dotted 1px #FFF; }
+		
+	#horse {
+		color: #60AB6B;
+		font-variant: small-caps;
+		letter-spacing: 2px;
+		margin: 0;
+		padding: 0; }
+		
+	#horse span {
+		color: #FFF;
+		font-size: 18px;
+		font-weight: bold; }
+
+/*
+----------------------------------------------------------------------------- 
+NAVIGATION
+-----------------------------------------------------------------------------*/
+	#nav {
+		clear: both;
+		color: #000;
+		display: block;
+		font-size: 17px;
+		margin: 0;
+		padding: 0; }
+
+	#nav li {
+		list-style: none;
+		margin: 0;
+		padding: 0; }
+
+	#nav a {
+		background: #FFF;
+		color: #355E3B;
+		text-decoration: none; }
+
+	#nav a:hover {
+		background: #FFF;
+		border-bottom: dotted 1px #000;
+		color: #000; }
+
+
+/*
+----------------------------------------------------------------------------- 
+CONTENT: LOGO, COL1, COL2, SERVICES
+-----------------------------------------------------------------------------*/
+	#content {
+		padding: 10px;
+		text-align: center; }
+		
+	#mission {
+		margin: 0 10px;
+		text-align: left; }
+		
+/*
+----------------------------------------------------------------------------- 
+FOOTER
+-----------------------------------------------------------------------------*/
+	#footer {
+		background: #FFF;
+		border-bottom: 1px solid #E1E1E1;
+		clear: both;
+		color: #6F6F6F;
+		font-size: 90%;
+		line-height: 1.5em;
+		margin: 20px 0 0 0;
+		padding: 0 5px; }
+
+	#footercontact {
+		float: left; }
+
+	#footercopy {
+		float: right; }
+
+	#footer ul {
+		list-style: none;
+		margin: 0;
+		padding: 0; }
+
+	#footer ul li {
+		float: left;
+		margin: 0;
+		padding: 8px; }
+		
+	#footer a {
+		background: #FFF;
+		color: #3E6B94; }
+		
+	#footer a:hover {
+		background: #FFF;
+		color: #000; }
+
+/*
+----------------------------------------------------------------------------- 
+GENERIC CLASSES
+-----------------------------------------------------------------------------*/
+	.left {
+		float: left; }
+
+	.right {
+		float: right; }
+		
+	.text-left {
+		text-align: left; }
+
+	.text-right {
+		text-align: right; }
+		
+	.text-center {
+		text-align: center; }
+
+	.hidden {
+		display: none;
+		visibility: hidden; }
+	
+	.visible {
+		display: block;
+		visibility: visible; }
+		
+	.doctor {
+		background: #FF0000;
+		border: solid 1px green;
+		float: left;
+		padding: 0;
+		text-align: center;
+		width: 200px; }
+	
+	.input {
+		background: #FFF;
+		border: solid 1px #252525;
+		margin: 3px;
+		padding: 1px 3px 1px 3px; }
