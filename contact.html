@@ -48,61 +48,9 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
           <div id="box_top_flash">
           <div id="quote_horse">Helping Others Recognize Solutions Experientially</div>
              <div id="section_header_contact">Contact Equine Intervention</div>
-             
-             <form action="/formmail.php" method="post" name="Contact Equine Intervention" id="contact_form" >
-                 <div>
-                 <table id="mytable" cellspacing="0" summary="Contact Equine Intervention">
-                      <tr>
-                        <th scope="row" abbr="First Name" class="specalt">First Name</th>
-                        <td colspan="3" class="alt"><input name="txtfirstname" type="text" id="txtfirstname" title="Text input: First Name" size="40" /></td>
-                        </tr>
-                      <tr>
-                        <th scope="row" abbr="Last Name" class="spec">Last Name</th>
-                        <td colspan="3"><input name="txtlastname" type="text" id="txtlastname" title="Text input: Last Name" size="40" /></td>
-                        </tr>
-                      <tr>
-                        <th scope="row" abbr="Address" class="specalt">Address</th>
-                        <td colspan="3" class="alt"><input name="txtaddress" type="text" id="txtaddress" title="Text input: Address" size="40" /></td>
-                       <tr>
-                        <th scope="row" abbr="Address2" class="spec">&nbsp;</th>
-                        <td colspan="3"><input name="txtaddress2" type="text" id="txtaddress2" title="Text input: Address2" size="40" /></td>
-                        </tr>
-                      <tr>
-                        <th scope="row" abbr="City" class="specalt">City</th>
-                        <td colspan="3" class="alt"><input name="txtcity" type="text" id="txtcity" title="Text input: City" size="40" /></td>
-                        </tr>
-                      <tr>
-                        <th scope="row" abbr="State" class="spec">State</th>
-                        <td colspan="3"><input name="txtstate" type="text" id="txtstate" title="Text input: State" size="2" maxlength="2" /></td>
-                        </tr>
-                      <tr>
-                        <th scope="row" abbr="Zip Code" class="specalt">Zip Code</th>
-                        <td class="alt"><input name="txtzipcode" type="text" id="txtzipcode" title="Text input: Zip Code" size="5" maxlength="10" /></td>
-                        </tr>
-                        
-                       <tr>
-                        <th scope="row" abbr="Home Phone" class="spec">Home Phone</th>
-                        <td colspan="3"><input name="txthomephone" type="text" id="txthomephone" title="Text input: Home Phone" size="12" maxlength="12" /><span> xxx-xxx-xxxx</span></td>
-                        </tr>
-                      <tr>
-                        <th scope="row" abbr="Cell Phone" class="specalt">Cell Phone</th>
-                        <td colspan="3" class="alt"><input name="txtcellphone" type="text" id="txtcellphone" title="Text input: Cell Phone" size="12" maxlength="12" /><span> xxx-xxx-xxxx</span></td>
-                       <tr>
-                        <th scope="row" abbr="Email" class="spec">Email Address</th>
-                        <td colspan="3"><input name="txtemail" type="text" id="txtemail" title="Text input: Email" size="40" /></td>
-                        </tr>
-                      
-                        <tr>
-                        <th scope="row" abbr="Other" class="specalt">Questions/Comments</th>
-                        <td colspan="3" class="alt"><textarea name="other" id="other" cols="60" rows="5"></textarea></td>
-                        </tr>
-                         <tr>
-                        <th></th>
-                        <td><input type="submit" class="boxes_bttn" value="Submit"><input type="reset" class="boxes_bttn"></td>
-                        </tr>
-                    </table>
-                 </div>
-              </form>
+            
+           <p>Equine Intervention, LLC - Hartsville, SC 29550<br />
+            ph: (843) 453-9985 email: <a href="mailto:horsedoctor@bellsouth.net">horsedoctor@bellsouth.net</a></p>
              
              
           </div>
@@ -128,50 +76,6 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
     	</div>
 	</div>
 </div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script>
-;(function($) {
-  $(function() {
-    $("#contact_form").submit(function() {
-        var email = $("#email").val(); // get email field value
-        var name = $("#txtfirstname").val() + $('txtlastname').val(); // get name field value
-        var msg = $("#other").val(); // get message field value
-        $.ajax(
-        {
-            type: "POST",
-            url: "https://mandrillapp.com/api/1.0/messages/send.json",
-            data: {
-                'key': 'pQZYbI8P5OVp4C6yOStY-w',
-                'message': {
-                    'from_email': email,
-                    'from_name': name,
-                    'headers': {
-                        'Reply-To': email
-                    },
-                    'subject': 'Website Contact Form Submission',
-                    'text': msg,
-                    'to': [
-                    {
-                        'email': 'bobby@simplyearl.com',
-                        'name': 'Bobby Earl',
-                        'type': 'to'
-                    }]
-                }
-            }
-        })
-        .done(function(response) {
-            alert('Your message has been sent. Thank you!'); // show success message
-            $('input[type="text"],textarea').val('');
-        })
-        .fail(function(response) {
-            alert('Error sending message.');
-        });
-        return false; // prevent page refresh
-    });
-  });
-}(jQuery));
-</script>
 
 </body>
 </html>
