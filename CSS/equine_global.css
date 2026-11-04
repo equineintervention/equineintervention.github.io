@@ -59,17 +59,22 @@ h4 {
     letter-spacing: .25px;
 }
 h4 a:link {
-   font-weight: bold;
+   font-weight: 700;
    border-bottom-width: 1px;
    border-bottom-style: dotted;
    border-bottom-color: #b29d9c;
    color: #b29d9c;
    padding-bottom: 1px;
 }
+h4 a:hover {
+   color: #CB6D68;
+   border-bottom-width: 0px;
+   padding-bottom: 1px;
+}
 h4 a:visited {
-   font-weight: bold;
-    text-decoration: none;
-    color: #555;
+   font-weight: 700;
+   text-decoration: none;
+   color: #767474;
    border-bottom-width: 1px;
    border-bottom-style: dotted;
    border-bottom-color: #555;
@@ -453,7 +458,7 @@ NAVIGATION - BOTTOM 3 LINK - - - - - CLIENTS, THERAPISTS, BUSINESSES - - - - -
   }
 #sub_content li {
 	float:left;
-	width: 212px;
+	width: 210px;
 	margin:0;
 	padding-top: 5px;
 	padding-right: 18px;
