@@ -12,53 +12,104 @@
 /*---------------------------------------------------------------------------- 
 CORE HTML TAGS
 -----------------------------------------------------------------------------*/
-html {}
-
-body {font: 75%  "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; line-height: 150%; letter-spacing: .25px;color: #333; background-image: url(../imgs/bg_canvas_4.jpg); margin: 0;padding:0;}
-h1, h2, h3, h4{font-family: Georgia,"Times New Roman",serif;}
-h5, h6{font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;}
-h1 {font-size: 160%;}
-h2 {font-size: 145%;}
+html {
+}
+body {
+   font: 75% "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+   line-height: 150%;
+   letter-spacing: .25px;
+   color: #333;
+   background-image: url(../imgs/bg_canvas_4.jpg);
+   margin: 0;
+   padding:0;
+}
+h1, h2, h3, h4 {
+   font-family: Georgia,"Times New Roman",serif;
+}
+h5, h6 {
+   font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+h1 {
+   font-size: 160%;
+}
+h2 {
+   font-size: 145%;
+}
 h3 {
-	font-size: 150%;
-	background-image: url(../imgs/topics.png);
-	background-repeat:no-repeat;
-	background-position:left bottom;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: bold;
-	line-height: normal;
-	letter-spacing: 1px;
-	color:#555;
-	padding: 30px 10px 12px 35px;
+   font-size: 150%;
+   background-image: url(../imgs/topics.png);
+    background-repeat:no-repeat;
+    background-position:bottom left;
+   font-style: normal;
+   font-variant: normal;
+   font-weight: bold;
+   line-height: normal;
+   letter-spacing: 1px;
+   color:#555;
+   padding: 30px 10px 12px 35px;
 }
 h4 {
-	font-size: 115%;
-	color:#b29d9c;
-	line-height: 100%;
-	text-decoration: none;
-	padding: 10px 0px 0px 0px;
-	margin: 0px;
-	text-transform:uppercase;
-	letter-spacing: 0.25px;
+   font-size: 115%;
+   color:#b29d9c;
+   line-height: 100%;
+   text-decoration: none;
+    padding: 10px 0px 0px 0px;
+    margin: 0px;
+    text-transform:uppercase;
+    letter-spacing: .25px;
 }
-h4 a:link{font-weight: bold; border-bottom-width: 1px;border-bottom-style: dotted;border-bottom-color: #b29d9c; color: #b29d9c;padding-bottom: 1px;}
-h4 a:visited{font-weight: bold; text-decoration: none; color: #555;border-bottom-width: 1px;border-bottom-style: dotted;border-bottom-color: #555;padding-bottom: 1.25px; }
-h5 {font-size: 100%;}
-h6 {font-size: 85%;}
+h4 a:link {
+   font-weight: bold;
+   border-bottom-width: 1px;
+   border-bottom-style: dotted;
+   border-bottom-color: #b29d9c;
+   color: #b29d9c;
+   padding-bottom: 1px;
+}
+h4 a:visited {
+   font-weight: bold;
+    text-decoration: none;
+    color: #555;
+   border-bottom-width: 1px;
+   border-bottom-style: dotted;
+   border-bottom-color: #555;
+   padding-bottom: 1.25px;
+}
+h5 {
+   font-size: 100%;
+}
+h6 {
+   font-size: 85%;
+}
+a {
+   text-decoration: none;
+}
+a img {
+   border: none;
+}
+a:link {
+   font-weight: bold;
+    color: #b29d9c;
+}
+a:visited {
+   color: #555;
+}
+a:hover, a:active {
+    text-decoration:none;
+}
 
-
-a {text-decoration: none;}
-a img {border: none;}
-a:link {font-weight: bold; color: #b29d9c;}
-a:visited {color: #555;}
-a:hover, a:active { text-decoration:none;}
-
-/*---------------------------------------------------------------------------- 
-WRAPPERS
------------------------------------------------------------------------------*/
-#wrap {margin: 0 auto;display: block;width: 1000px;background: transparent;position: relative;}
-#main_content_wrapper{width:100%;display: block;}	
+/*--------------------- WRAPPERS ---------------------------------------------*/
+#wrap {
+   margin: 0 auto;
+   display: block;
+   width: 1000px;
+   background: transparent;
+   position: relative;
+}
+#main_content_wrapper {
+   width:100%;
+   display: block;
+}
 
 /*---------------------------------------------------------------------------- 
 HEADER
@@ -70,33 +121,145 @@ HEADER
 BODY - BACKGROUND
 -----------------------------------------------------------------------------*/
 /*HOME CONTENT*/
-#content_wrapper{width: 1000px; margin: 0 auto; }
-#content_body_bg{background: url(../imgs/body_4.jpg) no-repeat; display: block; width: 900px; height:700px ;margin: 0 auto;}
-#content_body_clean{background: url(../imgs/body_clear.jpg) no-repeat; display: block; width: 900px; height:700px ;margin: 0 auto;}
-#content_top{background: url(../imgs/top_box.png) no-repeat; display:block; width:940px; height: 31px; margin: 0 auto;}
-#content_middle{background: url(../imgs/middle.png) repeat-y; display:block; width:940px; margin: 0 auto;}
-#content_bttm{background: url(../imgs/bttm.png) no-repeat; display:block; width:940px; height: 31px; margin: 0 auto;}
+#content_wrapper {
+	width: 1000px; 
+	margin: 0 auto; 
+}
+#content_body_bg {
+	background: url(../imgs/body_4.jpg) no-repeat; 
+	display: block; 
+	width: 900px; 
+	height:700px ;
+	margin: 0 auto;
+}
+#content_body_clean {background: url(../imgs/body_clear.jpg) no-repeat; 
+	display: block; 
+	width: 900px; 
+	height:700px ;
+	margin: 0 auto;
+}
+#content_top  {
+   background: url(../imgs/top_box.png) no-repeat; 
+   display:block; 
+   width:940px; 
+   height: 31px; 
+   margin: 0 auto; 
+   }
+#content_middle {
+   background: url(../imgs/middle.png) repeat-y; 
+   display:block; 
+   width:940px; 
+   margin: 0 auto;}
+#content_bttm {
+   background: url(../imgs/bttm.png) no-repeat; 
+   display:block; 
+   width:940px; 
+   height: 31px; 
+   margin: 0 auto; 
+   }
 
-#content_right_wrapper{width: 645px;height: auto;float: right;}
-#flash_wrapper{width: 645px;float: right;height: 680px;}
-#flash {display: block; width: 507px; height: 303px;margin-left: 82px}
-#box_top_flash{height: 172px;width: 645px;}
-#quote_horse{width: 645px; height: 25px; margin-top: 10px; margin-bottom: 65px;text-indent:-9999px; display: block; background: url(../imgs/quote.jpg) no-repeat right;}
-#section_header{width: 645px; height: 78px; text-indent: -9999px; display: block;}
+#content_right_wrapper {
+   width: 645px;height: auto;float: right; 
+   }
+#flash_wrapper {
+   width: 645px;float: right;height: 680px; 
+   }
+#flash  {
+   display: block; 
+   width: 507px; 
+   height: 303px;margin-left: 82px
+}
+#box_top_flash {
+   height: 172px;width: 645px; 
+   }
+#quote_horse {
+   width: 645px; 
+   height: 25px; 
+   margin-top: 10px; 
+   margin-bottom: 65px;text-indent:-9999px; 
+   display: block; 
+   background: url(../imgs/quote.jpg) no-repeat right; 
+   }
+#section_header {
+   width: 645px; 
+   height: 78px; 
+   text-indent: -9999px; 
+   display: block; 
+   }
 
 
-#section_header_about{width: 645px; height: 39px; text-indent: -9999px; display: block; background: url(../imgs/header_about.jpg) no-repeat left;}
-#section_header_events{width: 645px; height: 39px; text-indent: -9999px; display: block; background: url(../imgs/header_events.jpg) no-repeat left;}
-#section_header_eap{width: 645px; height: 39px; text-indent: -9999px; display: block; background: url(../imgs/header_eap.jpg) no-repeat left;}
-#section_header_eal{width: 645px; height: 39px; text-indent: -9999px; display: block; background: url(../imgs/header_eal.jpg) no-repeat left;}
-#section_header_contact{width: 645px; height: 39px; text-indent: -9999px; display: block; background: url(../imgs/header_contact.jpg) no-repeat left;}
+#section_header_about {
+   width: 645px; 
+   height: 39px; 
+   text-indent: -9999px; 
+   display: block; 
+   background: url(../imgs/header_about.jpg) no-repeat left; 
+   }
+#section_header_events {
+   width: 645px; 
+   height: 39px; 
+   text-indent: -9999px; 
+   display: block; 
+   background: url(../imgs/header_events.jpg) no-repeat left; 
+   }
+#section_header_eap {
+   width: 645px; 
+   height: 39px; 
+   text-indent: -9999px; 
+   display: block; 
+   background: url(../imgs/header_eap.jpg) no-repeat left; 
+   }
+#section_header_eal {
+   width: 645px; 
+   height: 39px; 
+   text-indent: -9999px; 
+   display: block; 
+   background: url(../imgs/header_eal.jpg) no-repeat left; 
+   }
+#section_header_contact {
+   width: 645px; 
+   height: 39px; 
+   text-indent: -9999px; 
+   display: block; 
+   background: url(../imgs/header_contact.jpg) no-repeat left; 
+   }
 
-#section_header_therapists{width: 645px; height: 39px; text-indent: -9999px; display: block; background: url(../imgs/header_therapists.jpg) no-repeat left;}
-#section_header_clients{width: 645px; height: 39px; text-indent: -9999px; display: block; background: url(../imgs/header_clients.jpg) no-repeat left;}
-#section_header_businesses{width: 645px; height: 39px; text-indent: -9999px; display: block; background: url(../imgs/header_businesses.jpg) no-repeat left;}
+#section_header_therapists {
+   width: 645px; 
+   height: 39px; 
+   text-indent: -9999px; 
+   display: block; 
+   background: url(../imgs/header_therapists.jpg) no-repeat left; 
+   }
+#section_header_clients {
+   width: 645px; 
+   height: 39px; 
+   text-indent: -9999px; 
+   display: block; 
+   background: url(../imgs/header_clients.jpg) no-repeat left; 
+   }
+#section_header_businesses {
+   width: 645px; 
+   height: 39px; 
+   text-indent: -9999px; 
+   display: block; 
+   background: url(../imgs/header_businesses.jpg) no-repeat left; 
+   }
 
-#section_header_EAP_programs{width: 645px; height: 39px; text-indent: -9999px; display: block; background: url(../imgs/header_EAP_programs.jpg) no-repeat left;}
-#section_header_EAL_programs{width: 645px; height: 39px; text-indent: -9999px; display: block; background: url(../imgs/header_EAL_programs.jpg) no-repeat left;}
+#section_header_EAP_programs {
+   width: 645px; 
+   height: 39px; 
+   text-indent: -9999px; 
+   display: block; 
+   background: url(../imgs/header_EAP_programs.jpg) no-repeat left; 
+   }
+#section_header_EAL_programs {
+   width: 645px; 
+   height: 39px; 
+   text-indent: -9999px; 
+   display: block; 
+   background: url(../imgs/header_EAL_programs.jpg) no-repeat left; 
+   }
 
 #content_main_info{
 	width: 575px;
@@ -105,7 +268,6 @@ BODY - BACKGROUND
 	overflow: auto;
 }
 #content_main_info p{
-	width: 95%;
 }
 #content_main_info ul li strong{
 	color: #b29d9c;
@@ -119,9 +281,16 @@ BODY - BACKGROUND
 #scroll_content div{ overflow:auto;}
 #box_bttm_flash{height: 40px;width: 645px;}
 
-#top_bar{background-color:#333333;display: block;width:100%;height: 10px;}
-#bttm_top_bar{background-color:#333333;display: block;width:100%;height: 10px;}
-#bttm_bar{display: block;width: 100%;height: 125px;clear:both;}
+#top_bar{
+	background-color:#333333;display: block;
+	width:100%;height: 10px;}
+#bttm_top_bar {
+	background-color:#333333;
+	display: block;width:100%;height: 10px;}
+#bttm_bar {
+	display: block;
+	width: 100%;
+	height: 125px;clear:both;}
 
 /*---------------------------------------------------------------------------- 
 NAVIGATION - BOTTOM 3 LINK - - - - - CLIENTS, THERAPISTS, BUSINESSES - - - - -
@@ -129,15 +298,12 @@ NAVIGATION - BOTTOM 3 LINK - - - - - CLIENTS, THERAPISTS, BUSINESSES - - - - -
 #main_menu_wrapper{float: left; width: 250px;clear: both;}
 #logo_home_bttn{background-image: url(../imgs/trans_bg.gif);float: left;height: 270px; width: 250px;}
 #logo_home_bttn a{display: block; height: 100%; overflow: hidden; width: 100%; text-indent: -1000em;}
-#main_menu{
-	margin: 275px 0px 0px 0px;
-	/* [disabled]height: 192px; */
-}
+#main_menu{margin: 275px 0px 0px 0px; height: 192px;}
 #main_menu ul{
-	/* [disabled]height:32px; */
-	margin:0;
-	padding:0 0;
-	list-style:none;
+	height:32px;
+  margin:0;
+  padding:0 0;
+  list-style:none;
 }
 #main_menu li{
   margin:0;
@@ -171,9 +337,9 @@ NAVIGATION - BOTTOM 3 LINK - - - - - CLIENTS, THERAPISTS, BUSINESSES - - - - -
   border-bottom:none;
   }
 #main_menu2 a, #main_menu2 strong {
-	width:250px;
-	border-bottom:none;
-	background-image: url(../imgs/horses_humans.jpg);
+  background:url(../imgs/upcoming.jpg);
+  width:250px;
+  border-bottom:none;
   }
 #main_menu3 a, #main_menu3 strong {
   background:url(../imgs/psycho.jpg);
@@ -200,38 +366,31 @@ NAVIGATION - BOTTOM 3 LINK - - - - - CLIENTS, THERAPISTS, BUSINESSES - - - - -
 	border-bottom:none;
 	background-image: url(../imgs/consult-serv.jpg);
 }
-#main_menu8 a, #main_menu8 strong {
-	width:250px;
-	border-bottom:none;
-	background-image: url(../imgs/take_the_reins.png);
-}
-#helpful_links {width: 220px; margin: 40px 0 0 0; padding: 0 15px 0 15px;}
-#helpful_links h4 {margin: 5px 0 35px 0;}
-#helpful_links p a {margin: 2px 0; height: auto; line-height: 14px;}
-#helpful_links_2 {
-	width: 220px;
-	margin: 20px 0 0 0;
+#helpful_links {
+	width: 220px; 
+	margin: 40px 0 0 0; 
 	padding: 0 15px 0 15px;
 }
-#helpful_links_2 p a {
-	margin: 2px 0;
-	height: auto;
-	line-height: 14px;
+#helpful_links h4 {
+	margin: 5px 0 35px 0;
 }
-.helpful_link_2 {
-	font-size: 115%;
-	color:#b29d9c;
-	line-height: 100%;
-	text-decoration: none;
-	padding: 10px 0px 0px 0px;
-	margin: 0px;
-	text-transform:uppercase;
-	letter-spacing: 0.25px;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-weight: bold;
+#helpful_links p a {
+	margin: 2px 0; 
+	height: auto; 
+	line-height: 15px;
 }
-#bttm_nav_content_wrapper{width:645px;margin-bottom:5px;margin-right: 2px;margin-top: 40px;clear:both;}
-#nav {width:645px;margin-bottom:5px;clear:both;}
+#bttm_nav_content_wrapper{
+	width:645px;
+	margin-bottom:5px;
+	margin-right: 2px;
+	margin-top: 40px;
+	clear:both;
+}
+#nav {
+	width:645px;
+	margin-bottom:5px;
+	clear:both;
+}
 
 #nav ul {
   height:32px;
@@ -294,7 +453,7 @@ NAVIGATION - BOTTOM 3 LINK - - - - - CLIENTS, THERAPISTS, BUSINESSES - - - - -
   }
 #sub_content li {
 	float:left;
-	width: 178px;
+	width: 210px;
 	margin:0;
 	padding-top: 5px;
 	padding-right: 18px;
@@ -334,7 +493,7 @@ NAVIGATION - BOTTOM 3 LINK - - - - - CLIENTS, THERAPISTS, BUSINESSES - - - - -
 	padding-bottom:5px;
 }
 #footer_content p {
-	font-size:80%;
+	font-size:90%;
 	line-height: 125%;
 	margin: 0px;
 	color: #211102;
@@ -373,38 +532,112 @@ NAVIGATION - BOTTOM 3 LINK - - - - - CLIENTS, THERAPISTS, BUSINESSES - - - - -
 	text-indent: -1000em;
 	border-bottom:none;
 }
-
-#fingerprint {text-transform: uppercase;font-size: 70%; color: #666; margin: 0 0 10px 0; padding: 5px; text-align: center; letter-spacing: .2em;}
-#fingerprint  a:link { color: #566253; text-decoration: none; padding-bottom: 1px;}
-#fingerprint  a:visited { text-decoration: none; color:  #566253; }
-#fingerprint  a:hover { text-decoration: none; color: #666; }
-#fingerprint  a:active { text-decoration: none; color:  #566253; }
+#fingerprint {
+	text-transform: uppercase;
+	font-size: 70%; 
+	color: #666; 
+	margin: 0 0 10px 0; 
+	padding: 5px; 
+	text-align: center; 
+	letter-spacing: .2em;
+}
+#fingerprint  a:link { 
+	color: #566253; 
+	ext-decoration: none; 
+	padding-bottom: 1px;
+}
+#fingerprint  a:visited { 
+	text-decoration: none; 
+	color:  #566253; 
+}
+#fingerprint  a:hover { 
+	text-decoration: none; 
+	color: #666; 
+}
+#fingerprint  a:active { 
+	text-decoration: none; 
+	color:  #566253; 
+}
 
 /* EQUINE INTERVENTION FORM */
 
-#contact_form{width: 645px; margin-top: 35px;}
-#contact_form div{padding: 7px 5px 5px 27px;}
-.boxes { color: #555; font-weight: bold; font-size: 90%; line-height: 110%; font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; text-decoration: none; background-color: #c7d2c4; padding: 3px; border: dotted 1px #566253; }
-.boxes_bttn {color: #555; font-weight: bold; font-size: 115%; line-height: 135%; font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; text-decoration: none; background-color: #c7d2c4; padding: 4px; border: dotted 1px #566253; margin-right: 5px;margin-top: 2px;}
+#contact_form{width: 645px; margin-top: 35px;
+}
+#contact_form div{padding: 7px 5px 5px 27px;
+}
+.boxes { color: #555; 
+	font-weight: bold; 
+	font-size: 90%; 
+	line-height: 110%; 
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+	background-color: #c7d2c4; 
+	padding: 3px; border: 
+	dotted 1px #566253; 
+}
+.boxes_bttn {
+	color: #555; 
+	font-weight: bold; 
+	font-size: 115%; 
+	line-height: 135%; 
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+	background-color: #c7d2c4; 
+	padding: 4px; 
+	border: dotted 1px #566253; 
+	margin-right: 5px;margin-top: 2px;
+}
 
-form#contact_form input, form#contact_form jumpMenu{color: #555; font-weight: bold; font-size: 90%; line-height: 110%; font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; text-decoration: none; background-color: #c7d2c4; padding: 3px; border: dotted 1px #566253;}
+form#contact_form input, form#contact_form jumpMenu {
+	color: #555; 
+	font-weight: bold; 
+	font-size: 90%; 
+	line-height: 110%; 
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+	background-color: #c7d2c4; 
+	padding: 3px; 
+	border: dotted 1px #566253;
+}
 
-form#contact_form input:hover { background:#b29d9c; border:1px solid #566253; color:#fff;}
+form#contact_form input:hover { 
+	background:#b29d9c; 
+	border:1px solid #566253; 
+	color:#fff;
+}
 
-form#contact_form input:focus {background:#fff; border:1px solid #566253; color:#566253;}
-
-
-
-form#contact_form select {margin:0;}
-
-form#contact_form textarea {width:95%; height:5em;overflow: auto; color: #555; font-weight: bold; font-size: 90%; line-height: 110%; font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; text-decoration: none; background-color: #c7d2c4; padding: 3px; border: dotted 1px #566253}
-
-form#contact_form textarea:hover {background:#b29d9c; border:1px solid #566253; color:#fff;}
-
-form#contact_form textarea:focus {background:#fff; border:1px solid #566253; color:#566253;}
-
-
-
+form#contact_form input:focus {
+	background:#fff; 
+	border:1px solid #566253; 
+	color:#566253;
+}
+form#contact_form select {
+	margin:0;
+}
+form#contact_form textarea {
+	width:95%; 
+	height:5em;
+	overflow: auto; 
+	color: #555; 
+	font-weight: bold; 
+	font-size: 90%; 
+	line-height: 110%; 
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+	background-color: #c7d2c4; padding: 3px; 
+	border: 
+	dotted 1px #566253
+}
+form#contact_form textarea:hover {
+	background:#b29d9c; 
+	border:1px solid #566253; 
+	color:#fff;
+}
+form#contact_form textarea:focus {
+	background:#fff; 
+	order:1px solid #566253; 
+	color:#566253;
+}
 
 a {
 padding: 0;
