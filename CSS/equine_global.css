@@ -371,6 +371,11 @@ NAVIGATION - BOTTOM 3 LINK - - - - - CLIENTS, THERAPISTS, BUSINESSES - - - - -
 	border-bottom:none;
 	background-image: url(../imgs/consult-serv.jpg);
 }
+#main_menu8 a, #main_menu8 strong {
+	width:250px;
+	border-bottom:none;
+	background-image: url(../imgs/take_the_reins.png);
+}
 #helpful_links {
 	width: 220px; 
 	margin: 40px 0 0 0; 
